@@ -1,25 +1,116 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Mixpanel Event Tracking</title>
-	<!-- start Mixpanel --><script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
-	for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f)}})(document,window.mixpanel||[]);
-	mixpanel.init("636d105591cd1a3b409341191a77769c");</script><!-- end Mixpanel -->
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-	
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-	
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="main.js"></script>
-</head>
-<body>
-	<div>
-		<h1 id="headerDiv">helloWorld</h1>
-	</div>
-	
-</body>
-</html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>Document</title>
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+      <!-- Optional theme -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	  <!-- start Mixpanel --><script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+	  for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f)}})(document,window.mixpanel||[]);
+	  mixpanel.init("636d105591cd1a3b409341191a77769c");</script><!-- end Mixpanel -->
+    </head>
+
+
+    <body>
+
+      <nav class="navbar navbar-default" id="nav">
+        <div class="container">
+          <a class ="navbar-brand" href="javascript:void(0)">Mixpanel!</a>
+
+       <ul class = "nav navbar-nav navbar-right">
+            <li><a href="javascript:void(0)">Home</a></li>
+            <li><a href="javascript:void(0)">Products</a></li>
+            <li><a href="javascript:void(0)">About</a></li>
+            <li><a href="javascript:void(0)">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container">
+
+        <h1>Super awesome product. <small>It's glorious.</small></h1>
+        <hr>
+          <div class="row">
+            <div class="col-md-6">
+              <h2>Let me tell you some more here...</h2><h5 class ="text-muted">Here's even more information!</h5>
+            </div>
+            <div class="col-md-6">
+              <div class="pull-right">
+              <br>
+                <a href="javascript:void(0)" class="btn btn-lg btn-success" id="btnOne">Do something</a>
+                <a href="javascript:void(0)" class="btn btn-lg btn-info" id="btnTwo">Learn some more</a>
+              </div>
+          </div>
+          </div>
+          <br>
+          <br>
+          <div class="carousel slide" id="product-carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#product-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#product-carousel" data-slide-to="1"></li>
+          <li data-target="#product-carousel" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner ">
+          <div class="item active ">
+            <img id = "full" src="http://lorempixel.com/1170/250" alt="Demo Image" />
+          </div>
+
+          <div class="item">
+            <img id = "full" src="http://lorempixel.com/1170/250/cats" alt="Demo Image" />
+          </div>
+
+          <div class="item">
+            <img id = "full" src="http://lorempixel.com/1170/250/sports" alt="Demo Image" />
+          </div>
+        </div>
+
+       <a class="left carousel-control" href="#product-carousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+
+        <a class="right carousel-control" href="#product-carousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-6 ">
+          <h2>Common Questions</h2>
+          <p class ="lead">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat laborum, repudiandae quisquam adipisci voluptatibus, mollitia facere, itaque iure debitis iusto esse neque illo dolore iste nemo vero sit molestias pariatur.  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+          <div class="col-md-6 ">
+            <h2>Quote of the day</h2>
+            <p class ="lead">
+              "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat laborum, repudiandae quisquam adipisci voluptatibus, mollitia facere"
+            </p>
+               <cite title="Source">Some person</cite>
+          </div>
+        </div>
+
+      <hr>
+        <h3 class="text-center">Hit me up, I want to work here</h3>
+        <hr>
+        <div class ="text-center text-muted">
+          <a href="javascript:void(0)"><i class="fa fa-3x fa-facebook-official"></i></a> &nbsp;
+          <a href="javascript:void(0)"><i class="fa fa-3x fa-twitter"></i></a>
+          &nbsp;
+          <a href="javascript:void(0)"><i class="fa fa-3x fa-linkedin"></i></a>
+          <br>
+          <br>
+        </div>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+    </html>
